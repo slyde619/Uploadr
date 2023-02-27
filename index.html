@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uploadr</title>
+    <!-- Pico CSS CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="container">
+        <nav >
+            <ul>
+                <li><a href="#" class="secondary"><i class='bx bx-menu'></i></a></li>
+            </ul>
+            <ul>
+                <li><strong>Uploadr</strong></li>
+            </ul>
+            <ul>
+                <li><a href="#" class="secondary data"><i class='bx bxs-data' ></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="container hero-section">
+        <hgroup>
+            <h3>Want to help your polling units against rigging? <br> Upload credential poll result at ease.</h3>
+            <p><strong>Snap, Upload & Visualize!</strong></p>
+        </hgroup>
+    </section>
+    <!-- Credential Upload -->
+    <section>
+        <form class="container">
+            <!-- Grid -->
+            <div class="grid">
+                <!-- Markup example 1: input is inside label -->
+                <label for="State">
+                State
+                <input type="text" id="state" name="state" placeholder="Name of State" required>
+                </label>
+                <label for="Unit Details">
+                Unit Details
+                <input type="text" id="unit" name="unit" placeholder="Unit Details" required>
+                </label>
+                <!-- File browser -->
+                <label for="file">File browser
+                    <input type="file" id="file" name="file">
+                </label>
+            </div>
+            <!-- Button -->
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+            <p >We must embrace unionism now, than ever!</p>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
